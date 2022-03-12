@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
 }
+
+/*===============================MENU=================================*/
+
 
 #menu a{
     font-size: 18px;
@@ -9,7 +14,12 @@ body {
     color: #3f3f3f;
 }
 
-#menu button{
+#menu button {
     font-size: 18px;
     font-weight: bold;
+}
+/*==============================SLIDER DE IMAGENES========================*/
+
+.carousel-inner {
+    max-height: 5rem;
 }
